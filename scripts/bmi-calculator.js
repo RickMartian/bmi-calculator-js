@@ -1,0 +1,1 @@
+window.bmiCalculator = new BmiCalcController();

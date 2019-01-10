@@ -1,0 +1,39 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: orange;  
+}
+
+input {
+    font-size: 75%;
+}
+
+input[type=text] {
+    width: 12.5%;
+    margin: 5px 5px;
+    padding: 6px 8px;
+    border: 2px solid #ccc;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    text-align: center;
+    width: 10%;
+    margin: 5px 5px;
+    padding: 6px 8px;
+    background-color: orange;
+    border: none;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(247, 211, 12)
+}
